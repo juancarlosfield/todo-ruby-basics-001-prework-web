@@ -1,27 +1,28 @@
 def division(num1, num2)
- 
+ num1 / num2
 end
 
-def assign_variable(value)
-  
+def assign_variable(value= "Bob")
+ "#{value}" 
 end
 
-def argue
-  
+def argue (phrase = "I'm right and you are wrong!")
+"#{phrase}"
 end
 
-def greeting
-
+def greeting (greeting , name )
+ puts "#{greeting} #{name}"
 end
 
-def return_a_value
-
+def return_a_value(var = "Nice")
+ "Nice"
 end
 
-def last_evaluated_value
-
+def last_evaluated_value(phrase="expert")
+"expert"
 end
 
-def pizza_party
-
+def pizza_party(pizza_party="cheese")
+  pizza_party #..an/argument/and/return/the/string/that/WAS PASSED/in/as/an/argument'
 end
+
